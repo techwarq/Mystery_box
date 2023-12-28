@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Christmas Present</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="present">
+    <div class="lid">
+      <span></span>
+    </div>
+    <div class="promo">
+        <textarea id="messageInput" placeholder="Write your message"></textarea>
+        <!-- Add a submit button -->
+        <button class="submit" onclick="generateQRCode()">Submit</button>
+        <!-- Provide a container with the ID 'qrCodeBox' for the QR code -->
+        <div class="qrCodeBox" id="qrCodeBox"></div>
+    </div>
+    <div class="box">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Include the QRCode.js library -->
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  <!-- Include your script.js file -->
+  <script src="script.js"></script>
+</body>
+</html>
