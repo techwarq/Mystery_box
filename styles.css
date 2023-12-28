@@ -77,7 +77,7 @@ body {
   /* hover effects */
   .present:hover .lid {
     top: -100px;
-    transform: rotateZ(40deg);
+    transform: rotateZ(20deg);
     left: 10px;
   }
   .present:hover .promo {
